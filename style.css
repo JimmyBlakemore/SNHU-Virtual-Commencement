@@ -1,0 +1,40 @@
+* {
+    color: #efefef;
+    text-align: center;
+}
+
+body {
+    background: url(rm218-bb-07.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+.container {
+    width: 1250px;
+    height: 825px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25px;
+}
+
+.video {
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: auto;
+}
